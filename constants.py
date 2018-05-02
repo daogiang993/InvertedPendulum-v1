@@ -1,0 +1,14 @@
+ENV_NAME = 'InvertedPendulum-v1'
+EPISODES = int(1e6)
+REPLAY_START = int(1e4)
+BUFFER_SIZE = int(1e6)
+BATCH_SIZE = 64
+GAMMA = 0.99
+H1_SIZE = 400
+H2_SIZE = 300
+LR_ACTOR = 1e-4
+LR_CRITIC = 1e-3
+TAU = 1e-3
+L2 = 1e-3 # Regularization
+RENDER = False
+MODE = 'TEST'
